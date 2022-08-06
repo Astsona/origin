@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean class="com.atguigu.ioc.pojo.Beans" name="beans"></bean>
+
+    <bean class="com.atguigu.ioc.pojo.Student" name="student">
+        <property name="id" value="10086"/>
+        <property name="name" value="Crystal"/>
+        <property name="score" value="99.9"/>
+    </bean>
+
+</beans>
